@@ -25,3 +25,4 @@ if ($iscli) set_time_limit(0);
 @define('ROOT_PATH', __DIR__);
 
 require_once(ROOT_PATH . "/libsw/main-libs.php");
+require_once(ROOT_PATH . "/func-github.php");
