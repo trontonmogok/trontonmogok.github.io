@@ -168,5 +168,7 @@ $plate_str= str_ireplace('{tpl_innerpages}', $inn_str, $plate_str);
 echo "NUM inner pages = $item \n\n";
 
 
+$plate_str= str_ireplace('{tpl_getdate}', date("c").time(), $plate_str);
+
 file_put_contents($fname_index, $plate_str);
 echo "\n --- " . humanize_filesize(filesize($fname_index)) . "\n\n";
