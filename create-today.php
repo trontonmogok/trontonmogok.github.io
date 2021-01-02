@@ -151,7 +151,7 @@ $plate_str= str_ireplace('{tpl_innerpages}', $inn_str, $plate_str);
 echo "NUM inner pages = $item \n\n";
 
 
-$plate_str= str_ireplace('{tpl_getdate}', date("c").time(), $plate_str);
+$plate_str= str_ireplace('{tpl_gendate}', date("c").time(), $plate_str);
 
-file_put_contents("/tmp/$fname_today", $plate_str);
+file_put_contents($fname_today, $plate_str);
 echo " --- " . humanize_filesize(filesize($fname_today)) . "\n\n";
