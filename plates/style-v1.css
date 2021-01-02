@@ -1,0 +1,32 @@
+
+*, html, html * {
+}
+
+.alltiles {
+	flex-wrap: wrap;
+}
+
+.footer {
+	padding: 1em;
+	margin: 3em 0 0;
+}
+
+.header {
+	padding: 1em;
+	margin: 0 0 3em;
+	background: transparent !important;
+}
+
+.tile img {
+	max-width: 100%;
+	max-height: 169px;
+	min-width: 169px;
+	height: 169px;
+}
+.gg-search {
+	column-count: 4;
+}
+.webs {
+	margin-top: 3em;
+	 font-weight: 900;
+}

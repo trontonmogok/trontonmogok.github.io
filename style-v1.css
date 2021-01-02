@@ -1,0 +1,46 @@
+
+*, html, html * {
+}
+
+.alltiles, .gslinks {
+	flex-wrap: wrap;
+}
+
+.footer {
+	padding: 1em;
+	margin: 3em 0 0;
+}
+
+.header {
+	padding: 1em;
+	margin: 0 0 3em;
+	background: transparent !important;
+}
+
+.tile img {
+	max-width: 100%;
+	max-height: 169px;
+	min-width: 169px;
+	height: 169px;
+}
+.block-list {
+	column-count: 4;
+}
+.webs {
+	margin-top: 3em;
+	font-weight: 900;
+}
+
+.gslinks li {
+	box-shadow: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.gslinks li a {
+	display: block;
+	overflow: hidden;
+}
+
+.inners, .gcse-search {
+	margin: 3em 0 0;
+}
